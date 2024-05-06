@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(50, 50, 70);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+}
+p {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 400px;
+}
+.phone {
+  width: 290px;
+  height: 500px;
+  background-color: #333;
+  border: 10px solid black;
+  border-radius: 20px;
+  border-top: 30px solid black;
+  border-bottom: 10px solid black;
+}
+.module {
+  background-color: #333;
+  width: 130px;
+  height: 18px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: -15px;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  align-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+label {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+input {
+  border-radius: 10px;
+  width: 88%;
+  height: 48px;
+  border: none;
+  margin: 14px 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.btn {
+  position: absolute;
+  bottom: 35px;
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 2px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(80, 80, 76);
+  color: #fff;
+  cursor: pointer;
+}
+.result {
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  display: none;
+}
+.true {
+  color: rgb(56, 148, 56);
+}
+.false {
+  color: rgb(173, 37, 37);
+}

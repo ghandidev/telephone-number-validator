@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Telephone Number Validator | ghandidev</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <p class="logo">
+        <img
+          src="./img/logogdevb-removebg-white.png"
+          width="40px"
+          alt="ghandidev logo"
+        />
+        ghandidev
+      </p>
+      <p>Telephone Number Validator</p>
+      <div class="phone">
+        <div class="module">•</div>
+        <form>
+          <label for="user-input">Enter a Phone Number:</label>
+          <input
+            id="user-input"
+            type="text"
+            maxlength="16"
+            placeholder="1-555 555 5555"
+            required
+          />
+          <div id="results-div"></div>
+          <div class="btn">
+            <button id="check-btn">Check</button>
+            <button id="clear-btn" type="button">Clear</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
